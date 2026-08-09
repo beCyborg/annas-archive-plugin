@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "becyborg-library",
+  "owner": {
+    "name": "Be Cyborg",
+    "url": "https://github.com/beCyborg"
+  },
+  "description": "Библиотечные плагины для Claude Code: поиск и скачивание книг и научных статей через членский API Архива Анны.",
+  "plugins": [
+    {
+      "name": "annas-archive",
+      "source": "./plugins/annas-archive",
+      "category": "productivity",
+      "tags": [
+        "books",
+        "epub",
+        "research",
+        "doi",
+        "annas-archive"
+      ],
+      "description": "Скилл-библиотекарь: находит книгу или статью в Архиве Анны, сам выбирает лучший файл по политике EPUB → английский → новее → популярнее, качает членским API и отчитывается об остатке квоты. Умеет батч-списки и DOI."
+    }
+  ],
+  "renames": {}
+}
