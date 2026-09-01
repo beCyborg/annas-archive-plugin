@@ -1,6 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "annas-archive",
+  "version": "1.0.0",
   "displayName": "Anna's Archive — книги и статьи одной фразой",
   "description": "Скилл-библиотекарь для Архива Анны: поиск по названию/автору/DOI, выбор лучшего файла по политике EPUB → английский → новее → популярнее, скачивание членским API быстрых загрузок, отчёт с остатком квоты. Батч-списки и научные статьи по DOI.",
   "author": { "name": "Be Cyborg" },
